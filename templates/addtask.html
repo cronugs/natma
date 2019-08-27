@@ -29,7 +29,7 @@
                 <div class="input-field col s12">
                     <i class="material-icons prefix">subject</i>
                     <input id="task_description" name="task_description" type="text" class="materialize-textarea">
-                    <label for="icon_telephone">Tast Description</label>
+                    <label for="icon_telephone">Task Description</label>
                 </div>
             </div>
             <div class="row">
@@ -58,4 +58,12 @@
 
 </div>
 
+<script type="text/javascript">
+    document.getElementById("matfix").addEventListener("click", function (e) {
+    e.stopPropagation();
+    });
+    
+</script>
+
 {% endblock content %}
+
